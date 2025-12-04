@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: integrate-openai-with-spring-boot
+  ai:
+    openai:
+      api-key: ${OPEN_AI_API_KEY}
+      chat:
+        options:
+          model: gpt-4.1-mini
